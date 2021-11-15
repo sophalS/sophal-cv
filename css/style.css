@@ -176,6 +176,8 @@ button{
     margin-left: 12%;
     background: linear-gradient(to top,#db8fd5,#ffffff,#fa94f1);
 }
+button a{
+    text-decoration:none;
 input[type="submit"],
 input[type="reset"]{
     width: 100%;
