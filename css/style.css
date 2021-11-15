@@ -692,12 +692,14 @@ input[type="reset"]{
         border: 1px solid;
         padding: 2%;
         text-align: center;
+        transition: .5s all;
     }
     a .location{
         width: 100%;
     }
     nav a:hover{
         cursor: pointer;
+        background: rgb(22, 21, 22);
     }
     #fa-bars:checked+ .menu{
         display: block;
@@ -722,11 +724,6 @@ input[type="reset"]{
         width: 30%;
         padding: 1%;
         flex-wrap: wrap;
-    }
-    .hide{
-        position: absolute;
-        font-size:0;
-        width: 0px;
     }
     .pic{
         background: linear-gradient(to left bottom,#c802b5,#250075);
