@@ -290,7 +290,7 @@ input[type="reset"]{
     .secpic{
         background: linear-gradient(to right bottom,#c802b5,#6f46c5,#c802b5);
         padding: 8%;
-        height: 63vh;
+        height: 58vh;
         box-shadow: 13px 13px 30px #46a1c5 ;
         border-radius: 5px;
     }
