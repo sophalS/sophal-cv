@@ -1,3 +1,924 @@
-body{
-    font-family: sans-serif;
+*{box-sizing:border-box;
 }
+body{
+    font-family: sans-serif; 
+    color: rgb(212, 212, 212);
+}
+
+.container{
+    background: linear-gradient(to left bottom,#c802b5,#6f46c5,#170342);
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: linear-gradient(#a11d94,#8661d6,#3e158b);
+    padding: 5px;
+    height: 13vh;
+    padding-top: 15px;
+}
+nav{
+    position: sticky;
+    top:0;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left,#a11d94,#ffffff,#2b057c);
+    height: 15vh;
+    border: none;
+}
+
+.foot a{
+    text-shadow: 4px 4px 10px #a11d94;
+}
+span{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+.link{
+    display: flex;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* favourite page */
+.guitar h3,
+.coding h3,
+.learning h3,
+.dancing h3,
+.traveling h3,
+.creation h3{
+    text-align: center;
+}
+.coding img,
+.learning img,
+.dancing img{
+    width: 100%;
+    background: white;
+}
+.traveling img{
+    width: 100%;
+    height: 71%;
+}
+.guitar img{
+    width: 100%;
+    height: 71%;
+    background: white
+}
+.creation img{
+    width: 100%;
+}
+.dancing,
+.coding,
+.learning,
+.guitar,
+.traveling,
+.creation{
+    border-radius: 3%;
+    padding: 1%;
+    box-shadow:5px 7px 10px #a487e2;
+    background: linear-gradient(to right,#e97bde,#a487e2,#7e6ba7);
+}
+/* image page */
+.imgBox{
+    text-align: center;
+    width: 100%;
+    /* margin: 0.3%; */
+    border-radius: 3%;
+    padding: 2%;
+    background: linear-gradient(to top,#b86db0,#a487e2);
+}
+.imgHome h3{
+    font-size: smaller;
+}
+.firstImgG,
+.secondImgG,
+.thirdImgG{
+    display: flex;
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+.firstImg,
+.secondImg,
+.thirdImg,
+.fourthImg{
+    width: 100%;
+    height: 90%;
+}
+.fourthImg{
+    height: 89.5%;
+}
+.fifthImg,
+.sixthImg,
+.seventhImg{
+    width: 100%;
+    height: 65vh;
+}
+.eighthImg{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.ninethImg,
+.tenthImg{
+    width: 100%;
+    height: 90%;
+}
+
+.line2Img{
+   height: 100%;
+}
+/* contact page */
+label{
+    font-size: 1.6rem;
+    margin: 3%;
+}
+input{
+    width: 60%;
+    padding: 1%;
+    border-radius:5px;
+    border: none;
+    margin: 2%;
+}
+input[type="radio"]{
+    width: 3%;
+    height: 20px;
+}
+.sex{
+    margin-left: 15%;
+}
+input[type="tel"]{
+    margin-left: 2%;
+}
+input[type="text"],
+input[type="email"]{
+    margin-left: 13%;
+}
+textarea{
+    margin-left: 9.5%;
+    border-radius: 5px;
+    width: 60%;
+    resize: none;
+    border: none;
+}
+button{
+    width: 10%;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 12%;
+    background: linear-gradient(to top,#db8fd5,#ffffff,#fa94f1);
+}
+input[type="submit"],
+input[type="reset"]{
+    width: 100%;
+    font-size: larger;
+    padding: 4%;
+    border: none;
+    background: none;
+}
+.submit{
+    margin-left: 27%;
+}
+.right img{
+    width: 50%;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.left{
+    width: 70%;
+}
+.profile img{
+    width: 10%;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3%;
+}
+
+/* Computer screen */
+@media (max-width:1400px) {
+    h1{
+        font-family:HandelGotDBol;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .fa-bars{
+        display: none;
+    } 
+     #fa-bars{
+        display: none;
+    }
+    nav a{
+        text-decoration: none;
+        color:white;
+        font-size: 30px;
+    }
+    nav a:hover{
+        color:rgb(147, 239, 255);
+    }
+    
+    .location{
+        background: linear-gradient(to top,#db8fd5,#ffffff,#fa94f1);
+        color: black;
+        padding:5px;
+        padding-bottom: 2%;
+        width: 11%;
+        height: 72%;
+        border-radius: 7px;
+        text-align: center;
+    }
+    footer a{
+        color:white;
+        padding-left: 5%;
+        font-size: 30px;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        padding: 1%;
+        align-items: center;
+    }
+    .textF{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        padding: 1%;
+    }
+    span p{
+        color:rgb(139, 0, 97);
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .pic{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to left top,#360899,#c802b5,#360899);
+        padding: 2%;
+        height: 50vh;
+        margin-right: 5%;
+        box-shadow: 13px 13px 10px rgb(102, 26, 117);
+        border-radius: 5px;
+
+     }
+    
+    .secpic{
+        background: linear-gradient(to right bottom,#c802b5,#6f46c5,#c802b5);
+        padding: 8%;
+        height: 63vh;
+        box-shadow: 13px 13px 30px #46a1c5 ;
+        border-radius: 5px;
+    }
+    .pic img{
+        width: 19rem;
+    }
+    .text h3{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .text p{
+        font-size: xx-large;
+    }
+    .fbIgm{
+        width: 90%;
+        height: 7vh;
+        border-radius: 50%;
+        box-shadow: none;
+    }
+    .mail{
+        width: 70%;
+    }
+    .text{
+        padding-left: 5%;
+        width: 60%;
+    }
+    .fa-chevron-right{
+        position: absolute;
+        font-size:0;
+    }
+    /* about page */
+.hometown{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+.hItems{
+    display: flex;
+    width: 100%;
+}
+.card1{
+    width: 50%;
+    height: 72vh;
+}
+.card1in1{
+    position: absolute;
+    border: 1px solid yellow;
+    width: 30%;
+    height: 30%;
+    margin-top: 15.5%;
+    margin-left: 7%;
+    background: gray;
+}
+.card2in1{
+    position: absolute;
+    margin-top: 3%;
+    border: 1px solid yellow;
+    width: 30%;
+    height: 30%;
+    margin-left: 7%;
+    background: orange;
+}
+.hold11{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient( to left,#f5eaf4,#8661d6,#3e158b);
+    box-shadow: 5px 2px 7px white;
+}
+.card2{
+    width: 50%;
+}
+.card2in1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card2in1 p,
+.card1in1 p{
+    position: absolute;
+    color: rgb(177, 4, 245);
+    font-size: x-large;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    margin-top: 15%;
+    margin-left:9%;
+    font-weight: bold;
+}
+.card1in1 h3{
+    margin-left: 20%;
+}
+.card1in1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card1in1 image,
+.card2in1 img,
+.card1in1 h3,
+.card2in1 h3{
+    z-index: 1;
+}
+.container nav{
+    z-index: 2;
+}
+.hometown h3{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 4px 4px 5px rgb(29, 0, 77);
+}
+.hometown p{
+    font-size: 2rem;
+}
+.educateImg{
+    display: flex;
+}
+.educateImg img{
+    width: 100%;
+    height: 82%;
+}
+.experienceimg{
+    display: flex;
+    width: 100%;
+}
+.experienceimg img{
+    width: 100%;
+    height: 100%;
+}
+.card5 img{
+    width: 100%;
+    height: 90vh;
+}
+/* favorite page */
+.favCollect1,
+.favCollect2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.guitar,
+.coding,
+.learning,
+.traveling
+.creation{
+    width: 30%;
+    margin: 2%;
+}
+.dancing,
+.traveling,
+.creation{
+    width: 30%;
+    margin: 2%;
+}
+/* contact page */
+.boy,
+.girl{
+    margin-left: 14%;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+}
+/* Tablet screen */
+@media (max-width:768px) {
+    h1{
+        font-family:HandelGotDBol;
+        text-align: center;
+        font-size:x-large;
+    }
+    fa-bars{
+        display: none;
+    }
+    nav a{
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+    }
+    .location{
+        background: linear-gradient(to top,#db8fd5,#ffffff,#fa94f1);
+        color: black;
+        width:13% ;
+        border-radius: 7px;
+        text-align: center;
+    }
+    footer a{
+        color:white;
+        padding-left: 5%;
+        font-size: 16px;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        padding: 1%;
+        align-items: center;
+    }
+    .textF{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        padding: 1%;
+    }
+
+    span p{
+        color:rgb(240, 112, 201);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .pic{
+        background: linear-gradient(to left bottom,#c802b5,#250075);
+        padding: 3%;
+        margin-left: 24%;
+        width: 50%;
+        height: 40vh;
+        margin-right: 5%;
+        box-shadow: 13px 13px 10px rgb(102, 26, 117);
+        border-radius: 5px;
+     }
+    
+    .secpic{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to right top,#c802b5,#250075);
+        padding: 3%;
+        margin-top: 2px;
+        width:90%;
+        height: 44vh;
+        box-shadow: 13px 13px 20px rgb(102, 26, 117);
+        border-radius: 5px;
+    }
+    .pic img{
+        height: 90%;
+        width: 90%;
+        margin-top: 5%;
+        border-radius:3px;
+    }
+    .text h3{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .text p{
+        font-size:larger;
+    }
+    .fbIgm{
+        width: 80%;
+        height: 6vh;
+        border-radius: 50%;
+        box-shadow: none;
+    }
+    .mail{
+        width: 60%;
+    }
+    .main{
+        display: grid;
+        grid-template-columns:repeat(2,auto);
+        gap: 2px;
+        grid-template-areas: 
+        "pic pic"
+        "text text";
+    }
+    .text{
+        grid-area: text;
+        width: 90%;
+        margin-top: 3%;
+    }
+    .pic{
+        grid-area: pic;
+    }
+    .hometown{
+        width: 100%;
+        height: 100%;
+        padding: 2%;
+    }
+    .hItems{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .card1{
+        width: 100%;
+        height: 70vh;
+    }
+    .card1in1{
+        position: absolute;
+        width: 88%;
+        height: 30%;
+        margin-top: 30%;
+        margin-left: 7%;
+        background:none;
+        border: none;
+    }
+    .card2in1{
+        position: absolute;
+        margin-top: 5%;
+        width: 88%;
+        height: 30%;
+        margin-left: 7%;
+        border: none;
+    }
+    .card2{
+        width: 100%;
+    }
+     .hometown h3{
+        text-align: center;
+        font-size: xx-large;
+        text-shadow: 4px 4px 5px rgb(29, 0, 77);
+    }
+    .hometown p{
+        font-size: 1.5rem;
+        margin-left: 3%;
+    }
+    .educateImg{
+        display: block;
+    }
+    .educateImg img{
+        width: 100%;
+        height: 82%;
+    }
+    .experienceimg{
+        display: block;
+        width: 100%;
+    }
+    .experienceimg img{
+        width: 100%;
+        height: 100%;
+    }
+    .card5 img{
+        width: 100%;
+        height: 60vh;
+    }
+    /* favorit page */
+.favCollect1,
+.favCollect2{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.guitar,
+.coding,
+.learning,
+.traveling
+.creation{
+    width: 96%;
+    margin: 2%;
+}
+.dancing,
+.traveling,
+.creation{
+    width: 96%;
+    margin: 2%;
+}
+/* images page */
+.firstImg,
+.firstImgG,
+.secondImgG,
+.thirdImgG{
+    display: block;
+    box-sizing: border-box;
+    margin: 2%;
+}
+.fifthImg,
+.sixthImg,
+.seventhImg{
+    width: 100%;
+    height: 65%;
+}
+ }
+ /* smart phone screen */
+ @media(max-width:520px){
+    h1{
+        font-family:HandelGotDBol;
+        text-align: center;
+        font-size:larger;
+    }
+    .fa-bars{
+        display: block;
+        cursor: pointer;
+        margin-left: 4%;
+        line-height: 10vh;
+        font-size: xx-large;
+    }
+    .menu{
+        width: 20%;
+        height: 40vh;
+        display: none;
+        padding-left: 3%;
+        z-index: 2;
+        position: absolute;
+        border-radius: 5px;
+        
+    }
+    .menu a{
+        display: block;
+        font-size: 90%;
+        margin-top: 1em;
+    }
+    nav a:hover{
+        cursor: pointer;
+    }
+    #fa-bars:checked+ .menu{
+        display: block;
+    }
+    .location{
+        padding-right: 17px;
+        width: 70%;
+        height: 10%;
+    }
+    footer a{
+        color:white;
+        padding-left: 5%;
+        font-size: 12px;
+    }
+    .foot{
+        width: 30%;
+        padding: 1%;
+        align-items: center;
+    }
+    .textF{
+        align-items: center;
+        width: 30%;
+        padding: 1%;
+        flex-wrap: wrap;
+    }
+    .hide{
+        position: absolute;
+        font-size:0;
+        width: 0px;
+    }
+    .pic{
+        background: linear-gradient(to left bottom,#c802b5,#250075);
+        padding: 3%;
+        margin-left: 12%;
+        width: 70%;
+        height: 40;
+        margin-right: 5%;
+        box-shadow: 13px 13px 10px rgb(102, 26, 117);
+        border-radius: 5px;
+        margin-bottom: 2%;
+     }
+    
+    .secpic{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to right top,#c802b5,#250075);
+        padding: 3%;
+        margin-top: 2px;
+        width:90%;
+        height: 44vh;
+        box-shadow: 13px 13px 20px rgb(102, 26, 117);
+        border-radius: 5px;
+    }
+    /* about page */
+.hometown{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+.hItems{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card1{
+    width: 100%;
+    height: 70vh;
+}
+.card1in1{
+    position: absolute;
+    width: 88%;
+    height: 30%;
+    margin-top: 45%;
+    margin-left: 7%;
+    background:none;
+    border: none;
+}
+.card2in1{
+    position: absolute;
+    margin-top: 7%;
+    width: 88%;
+    height: 30%;
+    margin-left: 7%;
+    border: none;
+}
+.hold11{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient( to left,#f5eaf4,#8661d6,#3e158b);
+    box-shadow: 5px 2px 7px white;
+}
+.card2{
+    width: 100%;
+}
+.card2in1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card2in1 p,
+.card1in1 p{
+    position: absolute;
+    color: rgb(177, 4, 245);
+    font-size:large;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    margin-top: 15%;
+    margin-left:25%;
+    font-weight: bold;
+}
+.card1in1 h3{
+    margin-left: 20%;
+}
+.card1in1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card1in1 image,
+.card2in1 img,
+.card1in1 h3,
+.card2in1 h3{
+    z-index: 1;
+}
+.container nav{
+    z-index: 2;
+}
+.hometown h3{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 4px 4px 5px rgb(29, 0, 77);
+}
+.hometown p{
+    font-size: 1.5rem;
+    margin-left: 3%;
+}
+.educateImg{
+    display: block;
+}
+.educateImg img{
+    width: 100%;
+    height: 82%;
+}
+.experienceimg{
+    display: block;
+    width: 100%;
+}
+.experienceimg img{
+    width: 100%;
+    height: 100%;
+}
+.card5 img{
+    width: 100%;
+    height: 60vh;
+}
+/* contact page */
+label{
+    display: none;
+    font-size: 1.6rem;
+    margin: 3%;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 3%;
+    border-radius:5px;
+    border: none;
+    margin: 2%;
+    box-sizing: border-box;
+}
+.sex{
+    margin-left: 14%;
+}
+i{
+    margin-left: 11%;
+}
+.boy,
+.girl{
+    display: flex;
+    margin-left: 0%;
+}
+input[type="tel"]{
+    margin-left: 13%;
+}
+textarea{
+    display: inline;
+    margin-left: 14%;
+    border-radius: 5px;
+    width: 100%;
+    height: 20%;
+    resize: none;
+    border: none;
+}
+button{
+    width: 25%;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 15%;
+    background: linear-gradient(to top,#db8fd5,#ffffff,#fa94f1);
+}
+input[type="submit"],
+input[type="reset"]{
+    width: 100%;
+    font-size: larger;
+    padding: 4%;
+    border: none;
+    background: none;
+}
+.contact{
+    display:block;
+    justify-content: space-around;
+}
+.right{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.right img{
+    margin-left: 24%;
+}
+.profile img{
+    width: 20%;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+    padding: 4%;
+}
+
+ }
