@@ -13,11 +13,11 @@ body{
 .menu{
     display: flex;
     justify-content: space-around;
+    align-items:center;
     color: white;
     background: linear-gradient(#a11d94,#8661d6,#3e158b);
     padding: 2%;
     height: 100%;
-    padding-top: 15px;
 }
 nav{
     position: sticky;
