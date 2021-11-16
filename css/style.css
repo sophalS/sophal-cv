@@ -965,9 +965,9 @@ input[type="reset"]{
     background: none;
 }
 .contact{
-    width:100%
     display:block;
     justify-content: space-around;
+    width:100%
 }
 .left{
     width:100%
