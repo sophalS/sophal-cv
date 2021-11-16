@@ -218,6 +218,7 @@ input[type="reset"]{
     margin-top: 3%;
 }
 
+
 /* Computer screen */
 @media (max-width:1400px) {
     h1{
@@ -692,7 +693,6 @@ textarea{
 }
 .left{
     box-sizing: border-box;
-    padding: relative;
 }
 .right{
     flex-wrap: wrap;
@@ -928,7 +928,7 @@ input{
 }
 i{
     margin-left: 11%;
-    background:white;
+    color:white;
 }
 .boy,
 .girl{
