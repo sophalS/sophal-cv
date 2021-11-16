@@ -15,7 +15,7 @@ body{
     justify-content: space-around;
     color: white;
     background: linear-gradient(#a11d94,#8661d6,#3e158b);
-    padding: 5px;
+    padding: 2%;
     height: 100%;
     padding-top: 15px;
 }
@@ -238,7 +238,7 @@ input[type="reset"]{
         font-size: 30px;
     }
     nav a:hover{
-        color:rgb(147, 239, 255);
+        color:rgb(213, 236, 6);
     }
     
     .location{
