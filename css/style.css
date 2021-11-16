@@ -969,12 +969,12 @@ input[type="reset"]{
     justify-content: space-around;
 }
 .left{
-    width:100%
+    width:90%
 .right{
     display: block;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     padding-bottom: 2%;
 }
 .right img{
