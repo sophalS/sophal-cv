@@ -965,16 +965,17 @@ input[type="reset"]{
     background: none;
 }
 .contact{
+    width:100%
     display:block;
     justify-content: space-around;
 }
 .left{
-    width:90%
+    width:100%
 .right{
     display: block;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     padding-bottom: 2%;
 }
 .right img{
