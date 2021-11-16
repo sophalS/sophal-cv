@@ -964,10 +964,10 @@ input[type="reset"]{
     border: none;
     background: none;
 }    
-contact{
-    width: 100%;
+.contact{
     display:block;
     justify-content: space-around;
+     width: 100%;
 }
 .left{
     width: 100%;
