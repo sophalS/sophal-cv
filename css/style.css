@@ -963,14 +963,15 @@ input[type="reset"]{
     padding: 4%;
     border: none;
     background: none;
-}
-.contact{
+}    
+contact{
+    width: 100%;
     display:block;
     justify-content: space-around;
-    width:100%;
 }
 .left{
-    width:100%
+    width: 100%;
+}
 .right{
     display: block;
     justify-content: center;
