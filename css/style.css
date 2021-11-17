@@ -167,15 +167,6 @@ textarea{
     resize: none;
     border: none;
 }
-button{
-    width: 10%;
-    border-radius: 15px;
-    border: none;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    margin-left: 12%;
-    background: linear-gradient(to top,#db8fd5,#ffffff,#fa94f1);
-}
 button a{
     text-decoration:none;
 }
@@ -233,6 +224,9 @@ input[type="reset"]{
         display: none;
     }
     nav a{
+        width:100%;
+        margin-left: 3%;
+        margin-right: 3%;
         text-decoration: none;
         color:white;
         font-size: 30px;
@@ -254,7 +248,7 @@ input[type="reset"]{
     footer a{
         color:white;
         padding-left: 5%;
-        font-size: 30px;
+        font-size: 100%
     }
     .foot{
         display: flex;
@@ -335,25 +329,23 @@ input[type="reset"]{
 }
 .card1{
     width: 50%;
-    height: 72vh;
+    height: 70vh;
 }
 .card1in1{
     position: absolute;
-    border: 1px solid yellow;
+    border: none;
     width: 30%;
     height: 30%;
-    margin-top: 15.5%;
+    margin-top: 15.7%;
     margin-left: 7%;
-    background: gray;
 }
 .card2in1{
     position: absolute;
     margin-top: 3%;
-    border: 1px solid yellow;
+    border: none;
     width: 30%;
     height: 30%;
     margin-left: 7%;
-    background: orange;
 }
 .hold11{
     width: 50%;
@@ -453,6 +445,14 @@ input[type="reset"]{
     display: flex;
     justify-content: space-around;
 }
+button{
+    width: 15%;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 12%;
+    background: linear-gradient(to top,#db8fd5,#ffffff,#fa94f1);
 }
 
 
