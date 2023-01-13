@@ -4,7 +4,9 @@ body{
     font-family: sans-serif; 
     color: rgb(212, 212, 212);
 }
-
+.clickMe{
+    color:white;
+}
 .container{
     background: linear-gradient(to left bottom,#c802b5,#6f46c5,#170342);
     width: 100%;
